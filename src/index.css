@@ -60,13 +60,19 @@ body {
     font-size: 90px;
   }
   .weather-forecast{
+    font-size: 40px;
     margin-top: 20px;
     text-align: center;
+    position:relative;
+    left: 250px;
+   bottom: 400px;
+   
   }
 
   .weather-forecast-date{
-    font-size: 16px;
+    
   }
   .weather-forecast-temperature{
     font-size:13px;
   }
+
