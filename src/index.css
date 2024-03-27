@@ -1,0 +1,72 @@
+body {
+    background-color: #8ecae6;
+  }
+  .main-app {
+    background-color: #deecfb;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 5px;
+    padding-top: 50px;
+    max-width: 1000px;
+    border-color: #212a67;
+  }
+  h1 {
+    position: relative;
+    left: 170px;
+    font-size: 60px;
+    color: #f1853b;
+  }
+  .search-form-input {
+    background-color: white;
+    border-color: #212a67;
+    border-radius: 5px;
+    width: 850px;
+    padding: 10px;
+  }
+  .search-form-submit {
+    background-color: #212a67;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  header {
+    padding: 25px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 50px 25px 20px 25px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #212a67;
+  }
+  
+  .weather-description {
+    padding: 15px;
+    position: relative;
+    left: 60px;
+    color: #212a67;
+  }
+  .weather-description strong {
+    color: #f1853b;
+  }
+  
+  .temperature {
+    color: #212a67;
+    position: relative;
+    left: 150px;
+    font-size: 90px;
+  }
+  .weather-forecast{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .weather-forecast-date{
+    font-size: 16px;
+  }
+  .weather-forecast-temperature{
+    font-size:13px;
+  }

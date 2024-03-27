@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naomi's Weather App</title>
+    <link rel="stylesheet" href="src/index.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="main-app">
+    <header>
+      <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a city.." required class="search-form-input" id="search-form-input"/>
+        <input type="submit" class="search-form-submit"/>
+      </form>
+    </header>
+    <main>
+      <div >
+          <h1 id="city"></h1>
+          <p class="temperature">
+            <span id="temperature"> </span> °C
+            </p>
+          <p class="weather-description">
+            <span id="time"> </span> , <span id="description"></span>, Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong> 
+          </p>
+          <div class="weather-forecast">
+            <div class="row">
+              <div class="col-2">
+                <div class="weather-forecast-date">
+                Thurs 
+                </div>
+                <div class="weather-forecast-temperture">
+              <span class="weather-forecast-max"> 18 </span>
+              <span class="weather-forecast-min">12 </span>
+                </div>
+            </div>
+            </div>
+          </div>
+    </main>
+</br>
+<hr/>
+    <footer>
+      Coded by
+      <a href="https://app.netlify.com/teams/naomirdd/overview">
+        Naomi Riddington</a
+      >
+      and is
+      <a href="https://app.netlify.com/teams/naomirdd/overview"
+        >open sourced on Github</a
+      >
+      and
+      <a href="https://venerable-zabaione-f64f1a.netlify.app/">
+        hosted on Netfliy</a
+      >
+    </footer>
+</div>
+<script src="src/index.js"></script>
+  </body>
+</html>
