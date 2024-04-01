@@ -11,8 +11,7 @@ body {
     border-color: #212a67;
   }
   h1 {
-    position: relative;
-    left: 170px;
+    text-align: center;
     font-size: 60px;
     color: #f1853b;
   }
@@ -45,8 +44,7 @@ body {
   
   .weather-description {
     padding: 15px;
-    position: relative;
-    left: 60px;
+    text-align: center;
     color: #212a67;
   }
   .weather-description strong {
@@ -55,24 +53,18 @@ body {
   
   .temperature {
     color: #212a67;
-    position: relative;
-    left: 150px;
     font-size: 90px;
+    text-align: center;
   }
   .weather-forecast{
     font-size: 40px;
     margin-top: 20px;
     text-align: center;
-    position:relative;
-    left: 250px;
    bottom: 400px;
    
   }
 
-  .weather-forecast-date{
-    
-  }
-  .weather-forecast-temperature{
-    font-size:13px;
-  }
+
+
+  
 
