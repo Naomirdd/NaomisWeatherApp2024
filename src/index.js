@@ -76,10 +76,11 @@ function displayForecast(response) {
         forecastHtml +
         `<span class="weather-forecast-date"> ${formatDay(day.time)} = </span>
         <span class="weather-forecast-temperture">
-          <span class="weather-forecast-max"> ${Math.round(day.temperature.maximun)} </span>
-      <span class="weather-forecast-min"> ${Math.round (day.temperature.minimun)}</span>
+          <span class="weather-forecast-max"> ${Math.round(day.temperature.maximum)} °C , </span>
+      <span class="weather-forecast-min"> ${Math.round (day.temperature.minimum)} °C </span>
         </span>
-      
+        <br/>
+        <br/>
     `;
     }
   });
